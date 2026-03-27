@@ -346,7 +346,7 @@ body {
           <div class="bucket-tag">Minor TI Required &nbsp;|&nbsp; Timeline: 12–36 Months</div>
         </div>
         <div class="bh-right">
-          <div class="bucket-sf-avail" id="b2sf">16,577 SF</div>
+          <div class="bucket-sf-avail" id="b2sf">11,549 SF</div>
           <div class="bucket-sf-label">Available</div>
           <div class="bucket-prog"><div class="bucket-prog-fill" id="b2bar" style="width:0%"></div></div>
         </div>
@@ -361,7 +361,7 @@ body {
       <div id="bucket2"></div>
       <div class="bucket-foot">
         <div></div><div></div>
-        <div>5 suites &nbsp;|&nbsp; 16,577 SF total</div>
+        <div>4 suites &nbsp;|&nbsp; 11,549 SF total</div>
         <div class="bf-leased" id="b2foot">0 SF leased</div>
         <div></div>
       </div>
@@ -376,7 +376,7 @@ body {
           <div class="bucket-tag">Large Blocks / Shell Space &nbsp;|&nbsp; Creative Strategy Required &nbsp;|&nbsp; Timeline: 18+ Months</div>
         </div>
         <div class="bh-right">
-          <div class="bucket-sf-avail" id="b3sf">24,011 SF</div>
+          <div class="bucket-sf-avail" id="b3sf">29,039 SF</div>
           <div class="bucket-sf-label">Available</div>
           <div class="bucket-prog"><div class="bucket-prog-fill" id="b3bar" style="width:0%"></div></div>
         </div>
@@ -391,7 +391,7 @@ body {
       <div id="bucket3"></div>
       <div class="bucket-foot">
         <div></div><div></div>
-        <div>3 suites &nbsp;|&nbsp; 24,011 SF total</div>
+        <div>4 suites &nbsp;|&nbsp; 29,039 SF total</div>
         <div class="bf-leased" id="b3foot">0 SF leased</div>
         <div></div>
       </div>
@@ -423,7 +423,6 @@ const suites = {
     { suite:'605', floor:6, sf:3124, type:'Spec Suite',   avail:'Available 06/2026' },
   ],
   b2: [
-    { suite:'505', floor:5, sf:5028, type:'2nd Generation', avail:'Vacant' },
     { suite:'510', floor:5, sf:2344, type:'2nd Generation', avail:'Vacant' },
     { suite:'610', floor:6, sf:3780, type:'2nd Generation', avail:'Available 06/2026' },
     { suite:'830', floor:8, sf:3783, type:'2nd Generation', avail:'Vacant' },
@@ -431,6 +430,7 @@ const suites = {
   ],
   b3: [
     { suite:'405', floor:4, sf:11125, type:'Shell / Large Block', avail:'Vacant' },
+    { suite:'505', floor:5, sf:5028,  type:'2nd Generation',      avail:'Vacant' },
     { suite:'501', floor:5, sf:11048, type:'Large Block',         avail:'Available 04/2026' },
     { suite:'650', floor:6, sf:1838,  type:'Shell',               avail:'Vacant' },
   ]
